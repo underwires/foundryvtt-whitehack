@@ -1,0 +1,68 @@
+<form autocomplete="off">
+  <div class="attribute-bonuses">
+    <label>{{localize 'WH.scores.str.long'}}</label>
+    <ol>
+      <li>
+        {{localize 'WH.Melee'}} ({{mod data.scores.str.mod}})
+      </li>
+      <li>
+        {{localize 'WH.exploration.od.long'}} ({{data.exploration.odMod}} in 6)
+      </li>
+    </ol>
+  </div>
+  <div class="attribute-bonuses">
+    <label>{{localize 'WH.scores.int.long'}}</label>
+    <ol>
+      <li>
+        {{localize 'WH.SpokenLanguages'}} ({{localize data.languages.spoken}})
+      </li>
+      <li>
+        {{localize 'WH.Literacy'}} ({{localize data.languages.literacy}})
+      </li>
+    </ol>
+  </div>
+  <div class="attribute-bonuses">
+    <label>{{localize 'WH.scores.wis.long'}}</label>
+    <ol>
+      <li>
+        {{localize 'WH.saves.magic.long'}} ({{mod data.scores.wis.mod}})
+      </li>
+    </ol>
+  </div>
+  <div class="attribute-bonuses">
+    <label>{{localize 'WH.scores.dex.long'}}</label>
+    <ol>
+      <li>
+        {{localize 'WH.Missile'}} ({{mod data.scores.dex.mod}})
+      </li>
+      <li>
+        {{localize 'WH.Initiative'}} ({{mod data.scores.dex.init}})
+      </li>
+      <li>
+        {{localize 'WH.ArmorClass'}} ({{mod data.scores.dex.mod}})
+      </li>
+    </ol>
+  </div>
+  <div class="attribute-bonuses">
+    <label>{{localize 'WH.scores.con.long'}}</label>
+    <ol>
+      <li>
+        {{localize 'WH.Health'}} ({{mod data.scores.con.mod}})
+      </li>
+    </ol>
+  </div>
+  <div class="attribute-bonuses">
+    <label>{{localize 'WH.scores.cha.long'}}</label>
+    <ol>
+      <li>
+        {{localize 'WH.NPCReaction'}} ({{mod data.scores.cha.npc}})
+      </li>
+      <li>
+        {{localize 'WH.RetainersMax'}} ({{add data.scores.cha.mod 4}})
+      </li>
+      <li>
+        {{localize 'WH.Loyalty'}} ({{add data.scores.cha.mod 7}})
+      </li>
+    </ol>
+  </div>
+</form>

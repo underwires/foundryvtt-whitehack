@@ -1,0 +1,156 @@
+{
+  "Actor": {
+    "types": [
+      "character",
+      "creature"
+    ],
+    "templates": {
+      "character": {
+        "attributes": {
+          "strength": {
+            "value": 10,
+            "min": 0,
+            "max": 18,
+            "av": 0,
+            "damage": 0
+          },
+          "dexterity": {
+            "value": 10,
+            "min": 0,
+            "max": 18,
+            "initiative": 0
+          },
+          "constitution": {
+            "value": 10,
+            "min": 0,
+            "max": 18,
+            "hp": 0
+          },
+          "intelligence": {
+            "value": 10,
+            "min": 0,
+            "max": 18,
+            "languages": 0
+          },
+          "wisdom": {
+            "value": 10,
+            "min": 0,
+            "max": 18,
+            "miracles": 0
+          },
+          "charisma": {
+            "value": 10,
+            "min": 0,
+            "max": 18
+          },
+          "encumbrance": {
+            "burden": 0,
+            "burdenLevel": 0
+          },
+          "ac": {
+            "value": 0
+          },
+          "av": {
+            "value": 11,
+          },
+          "st": {
+            "value": 0
+          },
+          "mv": {
+            "base": 30
+          }
+        },
+        "hp": {
+          "hd": "1d6",
+          "value": 6,
+          "max": 6
+        },
+        "initiative": {
+          "value": 0
+        },
+        "level": 1,
+        "xp": 0,
+        "class": "",
+        "identity": ""
+      },
+      "creature": {
+        "hd": 1,
+        "av": 11,
+        "st": 6,
+        "damage": "1d6",
+        "hp": {
+          "hd": "1d6",
+          "value": 6,
+          "max": 6
+        },
+        "ac": 0,
+        "attributes": {
+          "high": 11,
+          "low": 6,
+          "one": 1
+        },
+        "movement": {
+          "base": 30
+        },
+        "languages": "",
+        "special": ""
+      }
+    }
+  },
+  "Item": {
+//    "types": ["item", "weapon", "armor", "spell", "ability"],
+    "types": ["item", "weapon", "armor", "group", "ability"],
+    "item": {
+      "type": "item",
+      "name": "",
+      "description": "",
+      "quantity": 1,
+      "cost": 0,
+      "weight": 0,
+      "heal": "",
+      "save": false,
+      "target": ""
+    },
+    "weapon": {
+      "type": "weapon",
+      "name": "",
+      "description": "",
+      "damage": "1d6",
+      "bonus": 0,
+      "range": 0,
+      "rate of fire": 0,
+      "special": "",
+      "cost": 0,
+      "equipped": false,
+      "weight": 0,
+      "counter": {
+        "value": 0,
+        "max": 0
+      }
+    },
+    "armor": {
+      "type": "armor",
+      "name": "",
+      "description": "",
+      "ac": 1,
+      "cost": 0,
+      "special": "",
+      "equipped": false,
+      "weight": 0
+    },
+    "group": {
+      "type": "group",
+      "kind": "",
+      "name": "",
+      "description": "",
+      "attributes": ""
+    },
+    "ability": {
+      "type": "ability",
+      "name": "",
+      "description": "",
+      "active": true,
+      "save": false
+    }
+  }
+}
